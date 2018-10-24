@@ -6,7 +6,7 @@
 	<groupId>sa.elm</groupId>
 	<artifactId>openshift</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>openshift</name>
 	<description>Demo project for Spring Boot</description>
@@ -120,11 +120,7 @@
 				<!--</plugin>-->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-war-plugin</artifactId>
-					<configuration>
-						<warSourceDirectory>target/www/</warSourceDirectory>
-						<failOnMissingWebXml>false</failOnMissingWebXml>
-					</configuration>
+					<artifactId>maven-jar-plugin</artifactId>
 				</plugin>
 			</plugins>
 		</build>
