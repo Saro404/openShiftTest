@@ -12,10 +12,9 @@
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.6.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<artifactId>super-pom</artifactId>
+		<groupId>com.elm.common</groupId>
+		<version>1.1.1</version>
 	</parent>
 
 	<properties>
@@ -31,6 +30,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
+			<version>2.0.6.RELEASE</version>
 		</dependency>
 
 		<dependency>
