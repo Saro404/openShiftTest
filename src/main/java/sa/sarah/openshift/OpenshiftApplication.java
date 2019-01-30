@@ -1,4 +1,4 @@
-package sa.elm.openshift;
+package sa.sarah.openshift;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
