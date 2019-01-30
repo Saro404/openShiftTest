@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>sa.elm</groupId>
+	<groupId>sa.sarah</groupId>
 	<artifactId>openshift</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>openshift</name>
 	<description>Demo project for Spring Boot</description>
@@ -122,11 +122,11 @@
 				<!--</plugin>-->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-war-plugin</artifactId>
-					<configuration>
+					<artifactId>maven-jar-plugin</artifactId>
+<!-- 					<configuration>
 						<warSourceDirectory>target/www/</warSourceDirectory>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
-					</configuration>
+					</configuration> -->
 				</plugin>
 			</plugins>
 		</build>
