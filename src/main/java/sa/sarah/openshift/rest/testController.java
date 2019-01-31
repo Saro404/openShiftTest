@@ -15,7 +15,7 @@ public class testController {
 	@GetMapping("/hello")
 	public ResponseEntity<String> getHelloMessage() {
 		LOGGER.debug("In get hello message");
-		return ResponseEntity.ok().body("Hello, it's working :)");
+		return ResponseEntity.ok().body("Hello Bash!");
 	}
 
 }
